@@ -1,11 +1,11 @@
-    #include <stdio.h>
+#include <stdio.h>
 #include <string.h>
 #include <stdbool.h> 
 bool isPalindrome(int num);
 
 int main() {
     // to determine palindrome num, reverse the number 
-    //and check if reverse number is equal to actual number
+    // and check if reverse number is equal to actual number
     // mod 10 gives last digit and div 10 gives remaining digits
 
     printf("%d \n", isPalindrome(12321) ); // 1
